@@ -24,7 +24,7 @@ Informações de alteração
 - git add *
 - git commit -am "mesagem"
 - git push ( envia alterações para o repositorio PS: só consegue fazer o push se o s  eu codigo estiver atualizado)  
-  - Exemplo de push  ( $ git push https://github.com/ConinoGDS/curso-frontend.git   )
+  - Exemplo de push  ( $ git push --m https://github.com/ConinoGDS/curso-frontend.git   )
 
 - git pull ( puxar /trazer alterações do GitHub para sua maquina )
 
