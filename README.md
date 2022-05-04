@@ -47,6 +47,9 @@ $ git checkout -b dev ( cria uma brench )  ( Esse Comando cria uma copia do que 
 $ git checkout master ( mudar de branch ) 
 
 
+Antes de dar commit usar:
+$ fetch --all    ( para ver se não tem nem uma alteração la no repositorio)
+
 ----------------------------------------------
 
 
