@@ -34,14 +34,14 @@ Fluxo do Git
 ## Branchs
 São ramificações do codigo.
 
-- main / master
-- developer
+- main / master ( Só vai enviar alterações para essas breachs principais quando tudo que estiver desenvolvido estiver fechado e concluido )
+- developer ( usado somente para desenvolvimento, HLG )
 - DOD  Definition of done   ( Definição de concluido )  ( Criterio de aceite)
 - versionamento 0.1.10
 
 -- Para criar um BRANCH
 
-git checkout -b dev ( cria uma brench )
+git checkout -b dev ( cria uma brench )  ( Esse Comando cria uma copia do que tem no Ambiente Main para DEV )
 git checkout master ( mudar de branch ) 
 
 
