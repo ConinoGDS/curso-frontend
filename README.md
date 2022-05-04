@@ -60,3 +60,5 @@ O repositorio reolve os conflitos automatios
 
 git flow init
 git flow feature start { nome-da-feature }
+
+teste
