@@ -39,10 +39,16 @@ São ramificações do codigo.
 - DOD  Definition of done   ( Definição de concluido )  ( Criterio de aceite)
 - versionamento 0.1.10
 
--- Para criar um BRANCH
+--------  Para criar um BRANCH ---------------
 
-git checkout -b dev ( cria uma brench )  ( Esse Comando cria uma copia do que tem no Ambiente Main para DEV )
-git checkout master ( mudar de branch ) 
+$ git branch   ( mostra em que banch e versão vocêe esta )
+
+$ git checkout -b dev ( cria uma brench )  ( Esse Comando cria uma copia do que tem no Ambiente Main para DEV )
+$ git checkout master ( mudar de branch ) 
+
+
+----------------------------------------------
+
 
 
 ## Merge
