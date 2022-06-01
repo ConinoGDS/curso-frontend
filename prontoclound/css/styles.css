@@ -165,3 +165,7 @@ footer small {
     display: block;
 
 }
+
+.cog-branding__powered{
+visibility: hidden !important;
+}
