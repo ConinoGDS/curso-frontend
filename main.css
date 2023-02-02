@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Itim", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+section {
+  padding: 10px 0;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  background-color: rgb(195, 206, 236);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form-campo {
+  margin-bottom: 16px;
+}
+.form-campo input,
+.form-campo textarea {
+  width: 100%;
+  display: block;
+  padding: 5px;
+}
+.form-campo textarea {
+  resize: none;
+  height: 80px;
+}
+form {
+  max-width: 360px;
+}
+form button {
+  max-width: 120px;
+}
