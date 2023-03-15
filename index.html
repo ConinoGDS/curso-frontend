@@ -1,33 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Cadastro</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  </head>
-  <body>
+    <title>Projeto Bootstrap</title>
+    <!-- Incluindo os arquivos do Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Estrutura básica da página -->
     <div class="container">
-      <form>
-
-        <div class="form-group">
-          <label for="nome">Nome:</label>
-          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
-        </div>
-
-        <div class="form-group">
-          <label for="email">E-mail:</label>
-          <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
-        </div>
-
-        <div class="form-group">
-          <label for="telefone">Telefone:</label>
-          <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
-        </div>
+        <div class="row">
+            <!-- Carousel de imagens -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner p-2">
+                    <div class="carousel-item active" style="width: 1300px;">
+                        <img src="https://cdn.pixabay.com/photo/2023/03/02/19/37/tunnel-7826204_960_720.jpg" class="d-block w-100" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item" style="width: 1300px;">
+                        <img src="https://cdn.pixabay.com/photo/2023/03/09/20/02/cat-7840767_960_720.jpg" class="d-block w-100" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item" style="width: 1300px;">
+                        <img src="https://cdn.pixabay.com/photo/2023/03/03/17/35/gray-cat-7828134_960_720.jpg" class="d-block w-100" alt="Imagem 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </a>
+            </div>
+            <!-- Layout com grid -->
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg" class="card-img-top" alt="Imagem do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Por do sol sei la na onde</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, voluptate perferendis.</p>
+                        <a href="#" class="btn btn-primary">Botão</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_960_720.jpg" class="card-img-top" alt="Imagem do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Passaros Logo ali</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, voluptate perferendis.</p>
+                            <a href="#" class="btn btn-primary">Botão</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_960_720.jpg" class="card-img-top" alt="Imagem do card">
+                        <div class="card-body">
+                            <h5 class="card-title">No meio do matinho</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, voluptate perferendis.</p>
+                            <a href="#" class="btn btn-primary">Botão</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
-    </div>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  </body>
-</html>
+        </div><!----Fim caontainer------>
+        <script src="bootstrap.bundle.min.js"></script>
+
+    </body>
+    </html>
